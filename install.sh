@@ -1,4 +1,5 @@
 #!/bin/bash
 
-# Install jansson library
-sudo apt-get install libjansson-dev
+sudo apt install libjson-c-dev
+
+sudo apt install qtmultimedia5-dev
