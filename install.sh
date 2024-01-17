@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 # install mpg321
 sudo apt-get install mpg321
 
@@ -19,3 +18,8 @@ sudo apt install apache2
 systemctl status apache2
 sudo apt install npm
 sudo npm install -g http-server
+
+# wiringPi.h library 
+git clone https://github.com/WiringPi/WiringPi.git
+cd WiringPi
+./build
